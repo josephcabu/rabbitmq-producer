@@ -20,7 +20,6 @@ public class StreamingProducer {
 					"New Series: 'Stranger Things' Season 5",
 					"New Episode: 'The Witcher' S03E01",
 					"New Series: 'Rick and Morty: The Anime",
-					"KK"
 			};
 
 			for (String message : notifications) {
