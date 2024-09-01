@@ -14,7 +14,7 @@ public class StreamingProducer {
 			 Channel channel = connection.createChannel()) {
 			channel.queueDeclare(QUEUE_NAME, false, false, false, null);
 
-			// Notificaciones de nuevas peliculas
+			// Notificaciones de nuevas tendencias
 			String[] notifications = {
 					"New Movie: 'Guardians of the Galaxy Vol. 3'",
 					"New Series: 'Stranger Things' Season 5",
